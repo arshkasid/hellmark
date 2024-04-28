@@ -25,40 +25,31 @@
                         while($row=mysqli_fetch_assoc($result_query)){
 
                             // in insert product, to put n database, it was the the name of the input form part that was written in the [], her to fetch it is the column name in [] (the $name is just a variable)
-                            $product_id=$row['product_id'];
-                            $product_title=$row['product_title'];
+                            $product_id=$row['prod_id'];
+                            $name=$row['name'];
                             
-                            $category_id=$row['category_id'];
-                            $product_price=$row['product_price'];
+                            $category_id=$row['cat_id'];
+                            $product_price=$row['price'];
                             //accessing images
-                            $product_image1=$row['product_image1'];
+                            $product_image1=$row['prod_image'];
+                            $description=$row['description'];
                             
 
                             
                             echo "
 
 
-                            <div class='col-md-4 mb-2'>
-    <div class='card' style='width: 20rem; margin:30px; margin-top:-5px; border:8px; box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2); '>
-    
-    
-    
-    
-    <img class='card-img-top slide' src='./admin_area/product_images/$product_image1' alt='Card image cap'>
-
-
-
-    <div class='card-body' style='text-align: center;'>
-        <h5 class='card-title m-3'>$product_title</h5>
-
-        <a style='border-radius:50px' href='product_details.php?product_id=$product_id' class='btn btn-secondary'>View More</a>
-            <button class='btn btn-secondary' style='border-radius:50px'>
-        <a href='checkout.php?product_id=$product_id' style='text-decoration: none; color: white'  style='border-radius:50px' >Contact</a>
-      </button>
-
-    </div>
-    </div>
-    </div>
+                            <div class='col-lg-4 col-md-4 all des'>
+                            <div class='product-item'><a href='#'><img alt='' src='assets/images/merch/batchblue.jpg' /></a>
+                            
+                            <div class='down-content'>
+                            <h4><a href='#'>$name</a></h4>
+                            <!--h6>$16.75</h6!-->
+                            
+                            <p>$description</p>
+                            </div>
+                            </div>
+                            </div>
 
 
                          

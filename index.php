@@ -1,3 +1,16 @@
+<?php
+
+    include('includes/connect.php');
+    // this function has the dynamic products displayed 
+    include('functions/common_function.php');
+    session_start();
+
+    
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -191,366 +204,9 @@ Don't miss out on official IIML merchandise -
 <div class="col-md-12">
 <div class="filters-content">
 <div class="row grid">
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/classicblackhoodie.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Classic Black Hoodie</a></h4>
-<!--h6>$18.25</h6!-->
-
-<p>IIML branded classic hooded tee is the go-to choice of winter wear for Hellites.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (12)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/yellow.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Premium round neck T-shirt</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>Yellow round neck tshirt with IIML embroidered in the center.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/alum polo.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Premium Polo T-Shirt (Navy Blue)</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>Premium Polo range with carefully designed trims that adds style and swag.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/greenpolo.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Green Polo T-Shirt</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>Premium Polo range with golden IIML logo embroidered near the chest.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/whitelove.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">I love IIML T-Shirt (White)</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>Show your love to IIML by wearing this White round neck T-shirt.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/blacklove.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">I love IIML T-Shirt (Black)</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>Show your love to IIML by wearing this Black round neck T-shirt</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all dev">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/steel.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Perpetual Steel Calendar</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>Stainless steel calendar with IIML branding and a slider to change months.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all dev">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/bag.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">&quot;Puma&quot; branded back pack - IIML customized</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>23 litres Puma bag with IIML branding.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/convo.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Convo T-shirt</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>Premium Polo range with carefully designed trims that adds style and swag.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all dev">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/bottle.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Stainless Steel Bottle (Red)</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>IIML branded 750 ml stainless steel bottle in glossy red.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/batchblue.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Batch of 23 T-shirt (Navy Blue)</a></h4>
-<!--h6>$16.75</h6!-->
-
-<p>Premium Polo range with carefully designed trims that adds style and swag.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (24)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/wth.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">What the hell T-shirt</a></h4>
-<!--h6>$18.75</h6!-->
-
-<p>An amazing black round neck tshirt with Lingos relatable to IIM Lucknow.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (60)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/batchmaroon.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Batch of 23 T-shirt (Maroon)</a></h4>
-<!--h6>$24.60</h6!-->
-
-<p>Premium Polo range with carefully designed trims that adds style and swag.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (48)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/survivor.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">PGP 1 Survivor</a></h4>
-<!--h6>$18.75</h6!-->
-
-<p>Kudos PGP1 survivors. Cherish your first year memories with a PGP survivor tee</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (60)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/soh.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Straight outta L</a></h4>
-<!--h6>$12.50</h6!-->
-
-<p>A well crafted red round neck tshirt to relive your nostalgic memories.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (72)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all des">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/batchblack.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Batch of 23 T-shirt (Black)</a></h4>
-<!--h6>$32.50</h6!-->
-
-<p>Premium Polo range with carefully designed trims that adds style and swag.</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (36)</span--></div>
-</div>
-</div>
-<!--
-<div class="col-lg-4 col-md-4 all dev">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/beer mug.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Personalized mug</a></h4>
-<!--h6>$18.75</h6!--><!--
-
-<p>Gift your friends with this awesome personalized mugs</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (60)</span</div>
-</div>
-</div>
--->
-<div class="col-lg-4 col-md-4 all dev">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/colorkeychain.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Metal Keychain - IIML Logo</a></h4>
-<!--h6>$18.75</h6!-->
-
-<p>Relive your memories in IIM Lucknow with thus IIML logo keychain</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (60)</span!--></div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-4 all dev">
-<div class="product-item"><a href="#"><img alt="" src="assets/images/merch/keychain.jpg" /></a>
-
-<div class="down-content">
-<h4><a href="#">Metal Keychain - IIML engraved</a></h4>
-<!--h6>$18.75</h6!-->
-
-<p>Relive your memories in IIM Lucknow with thus IIML engraved keychain</p>
-<!--ul class="stars">
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                      <span>Reviews (60)</span!--></div>
-</div>
-</div>
+  <?php
+getproducts();
+?>
 <!--
 <div class="col-lg-4 col-md-4 all dev">
 <div class="product-item"><a href="#"><img alt="" src="assets/images/merch/cameramug.jpg" /></a>
@@ -559,7 +215,7 @@ Don't miss out on official IIML merchandise -
 <h4><a href="#">Camera mug</a></h4>
 <!--h6>$18.75</h6!-->
 
-<p>Gift your friends with this awesome personalized mugs</p>
+
 <!--ul class="stars">
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
@@ -572,6 +228,7 @@ Don't miss out on official IIML merchandise -
 </div>
 </div>-->
 </div>
+<p>Gift your friends with this awesome personalized mugs</p>
 </div>
 </div>
 <!--div class="col-md-12">
