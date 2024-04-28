@@ -58,8 +58,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" href="#index">Home</a></li>
 	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" href="#products">Our Products</a></li>
 	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" href="#contactus">Contact Us</a></li>
-	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" href="blog.html">Blog</a></li>
-	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" href="aboutus.html">About Us</a></li>
+	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" href="blog.php">Blog</a></li>
+	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" href="aboutus.php">About Us</a></li>
 </ul>
 </div>
 </div>
